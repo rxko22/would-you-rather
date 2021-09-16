@@ -1,13 +1,171 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+a {
+  text-decoration: none;
+  color: #252525;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #252525;
+}
+
+h2 {
+  padding: 0px;
+}
+
+h3 {
+  margin: 2px;
+}
+
+h5 {
+  text-align: center;
+  margin: 15px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  padding: 40px;
+}
+
+input {
+  width: 30px;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+  display: inline;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.avatar {
+  height: 150px;
+  width: 150px;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.btn {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.img-dog {
+  width: 300px;
+  height: 250px;
+}
+
+.results-label {
+  font-weight: bold;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.nav li:first-child {
+  padding-left: 0;
+}
+
+.pollpost-container {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.pollresults-container {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center
+}
+
+.progress-container {
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5%;
+}
+
+.progress-filler {
+  border-radius: inherit;
+  text-align: right;
+}
+
+.progress-label {
+  padding-right: 10px;
+  text-align: center;
+}
+
+.question {
+  width: 45%;
+  max-width: 590px;
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  border: 2px solid #dad7d7;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.question-preview {
+  width: 60%;
+  text-align: center;
+}
+
+.results-container {
+  border: 1px solid black;
+  padding: 10px;
+  border: 2px solid #dad7d7;
+  border-radius: 25px;
+}
+
+.results-text {
+  padding-top: 10px;
+}
+
+.score-card {
+  width: 45%;
+  max-width: 590px;
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  border: 2px solid #dad7d7;
+  border-radius: 3px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.score-info {
+  width: 60%;
+  text-align: center;
 }

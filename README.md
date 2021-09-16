@@ -1,3 +1,9 @@
+# Would You Rather Project
+
+This project allows users to take a poll on thoughtful questions. Users are able to answer questions, create new questions and compare their score with other users.
+
+To run this application, first run `yarn install` to install necessary dependencies and then `yarn start`.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Author and Acknowledgement
+
+This project was created by Rosa Ko. Udacity has provided the `_DATA.js` file for this project.
